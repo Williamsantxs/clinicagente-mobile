@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "ClinicAgente",
+    "slug": "clinicagente-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0E7C86",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "scheme": "clinicagente",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "O ClinicAgente usa a câmera para ler o QR Code de check-in na recepção."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O ClinicAgente usa sua localização para mostrar a distância até a clínica."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "O ClinicAgente usa o Face ID para proteger seus dados de saúde."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
