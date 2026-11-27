@@ -111,6 +111,8 @@ src/
 
 A arquitetura de navegação está explicada em **[docs/ARQUITETURA.md](docs/ARQUITETURA.md)**.
 
+O documento dos 4 pilares (motivação, grupo, desafios e benchmarking) está em **[docs/ClinicAgente-Mobile-4-Pilares.pdf](docs/ClinicAgente-Mobile-4-Pilares.pdf)**.
+
 ## ⚠️ Limitações conhecidas
 
 - Os dados ficam **só no aparelho** (modo offline). Dois celulares não compartilham consultas. O próximo passo é ligar no Supabase do ClinicAgente web: só `src/context/` e `src/services/` mudam, as telas não.
@@ -121,9 +123,9 @@ A arquitetura de navegação está explicada em **[docs/ARQUITETURA.md](docs/ARQ
 
 ## 👥 Squad
 
-| Nome completo | Papel | GitHub |
-|---|---|---|
-| William dos Santos Souza | Mobile Frontend Developer · Arquitetura & Hooks / Dados | [@Williamsantxs](https://github.com/Williamsantxs) |
-| Suel Gomes | UI/UX & Design System · QA & Documentação | [@suelgomes](https://github.com/suelgomes) |
+| Nome completo | RGM | Papel | GitHub |
+|---|---|---|---|
+| William dos Santos Souza | 43650171 | Mobile Frontend Developer · Arquitetura & Hooks / Dados | [@Williamsantxs](https://github.com/Williamsantxs) |
+| Suel Gomes | 41919998 | UI/UX & Design System · QA & Documentação | [@suelgomes](https://github.com/suelgomes) |
 
 Projeto acadêmico, disciplina de desenvolvimento mobile — Análise e Desenvolvimento de Sistemas, Universidade Cruzeiro do Sul, 2026.
